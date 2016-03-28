@@ -10,8 +10,56 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Ubuntu", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2rem;
+}
+
+a {
+  color: #6c8fe0;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #18294f;
+  font-size: 100%;
+  line-height: 1.3;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
